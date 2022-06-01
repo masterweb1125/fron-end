@@ -1,0 +1,22 @@
+/* non usato lo stile del bottone in quanto se aggiungo la classe non scarica i dati */
+
+/* Style buttons */
+.btndw {
+  background-color: white;
+  border:2px solid #12455b;
+  border-radius: 12px;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+/* Darker background on mouse-over */
+.btndw:hover {
+  background-color: #68ecba;
+}
+
+.br {
+  margin-top:20px;
+}
+

@@ -1,0 +1,257 @@
+
+/* bordi finestra mappa*/
+.general {
+      width: 60%;
+      height: 90%;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 3px;
+      border-color: #E9A628;
+    }
+
+/* generale*/
+.Principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* titolo*/
+.Title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* posizione mappa*/
+.App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tabella layer*/
+.layertab {
+  background-color: #90e0fc99;
+  position: absolute;
+    top: 20%;
+    left: 20.5%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #12455b;
+    z-index: 500;
+ }
+
+@media only screen and (max-height: 680px) {
+  .layertab {
+    background-color: #90e0fc99;
+    position: absolute;
+    top: 28%;
+    left: 20.5%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #12455b;
+    z-index: 500;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .layertab {
+    background-color: #90e0fc99;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #12455b;
+    z-index: 500;
+  }
+}
+
+/* piechart1*/
+.piechart1 {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    z-index: 500;
+ }
+
+@media only screen and (max-height: 680px) {
+  .piechart1 {
+     position: absolute;
+        top: 14%;
+        right: -1%;
+        z-index: 500;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .piechart1 {
+     position: absolute;
+        top: 25%;
+        right: 1%;
+        z-index: 500;
+  }
+}
+
+/* pane1*/
+.pane1 {
+    position: absolute;
+        top: 70%;
+        left: 20%;
+        z-index: 500;
+ }
+
+@media only screen and (max-height: 768px) {
+  .pane1 {
+    position: absolute;
+        top: 80%;
+        left: 20%;
+        z-index: 500;
+  }
+}
+
+@media only screen and (max-height: 680px) {
+  .pane1 {
+    position: absolute;
+        top: 100%;
+        left: 20%;
+        z-index: 500;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .pane1 {
+    position: absolute;
+        top: 160%;
+        left: 25%;
+        z-index: 500;
+  }
+}
+
+/* pane2*/
+.pane2 {
+    position: absolute;
+        top: 70%;
+        left: 33%;
+        z-index: 500;
+ }
+
+@media only screen and (max-height: 768px) {
+  .pane2 {
+    position: absolute;
+        top: 80%;
+        left: 40%;
+        z-index: 500;
+  }
+}
+
+@media only screen and (max-height: 680px) {
+  .pane2 {
+    position: absolute;
+        top: 100%;
+        left: 36%;
+        z-index: 500;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .pane2 {
+    position: absolute;
+        top: 250%;
+        left: 25%;
+        z-index: 500;
+  }
+}
+
+/* footer*/
+.footer {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 500;
+ }
+
+@media only screen and (max-height: 680px) {
+  .footer {
+    position: absolute;
+        top: 2%;
+        right: 2%;
+        z-index: 500;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .footer {
+    position: absolute;
+        top: 3%;
+        right: 3%;
+        z-index: 500;
+  }
+}
+
+
+/* corpo pagina */
+body {
+
+  background-color: #12455b;
+}
+
+/* testo tipo h1 */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-family:roboto;
+  text-align: center;
+  color: #E9A628;
+
+}
+
+/* tabella layer testi */
+  th {
+    font-size: 16px;
+    text-align: left;
+    color:black;
+    font-family:roboto;
+  }
+  td {
+    font-size: 14px;
+    text-align: left;
+    vertical-align: middle;
+    font-family:roboto;
+    color:black;
+  }
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
